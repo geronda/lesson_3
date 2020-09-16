@@ -1,0 +1,77 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ol li,
+ul li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+/* -------------- */
+.header {
+  color: blue;
+  background-color: cornsilk;
+}
+#center {
+  color: aquamarine;
+}
+.second-block p span {
+  color: darkviolet;
+}
+.link {
+  color: black;
+}
+.block {
+  color: green;
+}
+.block__title {
+  color: hotpink;
+}
+.block .block__text {
+  color: darkorchid;
+}
+.block span {
+  color: greenyellow;
+}
+.first-block p {
+  color: coral;
+}
+.first-block > p {
+  color: black;
+}
+.last-block a {
+  color: olive;
+}
+.list .last-block__link {
+  color: blue;
+}
+
+.footer {
+  color: red;
+  background-color: cornsilk;
+}
+.footer__item {
+  color: darkgrey;
+}
